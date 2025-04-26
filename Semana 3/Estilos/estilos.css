@@ -1,0 +1,33 @@
+h1 {
+    background-color: red;
+    color:#0000ff";
+}
+
+/* Los id tienen más prioridad*/
+
+#titulo1 {
+    text-decoration: underline;
+    background-color: pink;
+
+}
+.grupo1 {
+    border: medium solid;
+    background-color: peru;
+}
+
+.special-gothic-expanded-one-regular {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+a:visited{
+    color: green;
+  }
+
+#titulo1:hover {
+    color: peru;
+  }
+a:hover {
+    color: rebeccapurple;
+}

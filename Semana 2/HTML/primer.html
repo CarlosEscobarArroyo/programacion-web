@@ -1,0 +1,86 @@
+<!-- Abreviación: html:5 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Sirve para que la página sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- El titulo de la página -->
+    <title>Progra Web</title>
+</head>
+<body>
+    <!-- div tiene lineamiento en bloque -->
+    <div>
+        Contenido 1
+    </div>
+    <div>
+        Contenido 2
+    </div>
+    <!-- span tiene lineamiento en linea -->
+    <span>
+        Contenido 3
+    </span>
+    <span>
+        Contenido 4
+    </span>
+    <!-- Para ver herramientas de desarrollador presiono Command + Option + I -->
+    <!-- Unordered list -->
+    <ul>
+        <li>Contenido 5</li>
+        <li>Contenido 6</li>
+    </ul>
+    <!-- Ordered list -->
+    <ol>
+        <li>Contenido 7</li>
+        <li>Contenido 8</li>
+    </ol>
+
+    <!-- Petición http hacia la url -->
+    <a href="http://ulima.edu.pe">Ulima</a>
+    <!-- Una URL esta dividida en 3 secciones. Protocolo - Host - Ruta-->
+    <!-- Enrutamiento relativo  -->
+    <a href="http://127.0.0.1:5500/folder/segundo.html">Segunda Página</a>
+    <!-- Este es un enrutamiento absoluto-->
+    <a href="/folder/segundo.html">Segunda Página</a>
+
+    <img src="/ferret.jpg" alt="ferret2">
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Carlos</th>
+                <th>Escobar</th>
+                <th>20</th>
+            </tr>
+            <tr>
+                <th>Camila</th>
+                <th>Escobar</th>
+                <th>22</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label for="nombre">Ingrese su nombre</label>
+        <input id="nombre" type="text">
+        <input id="check_lunes" type="checkbox">
+        <label for="check_lunes">Lunes</label>
+        <input id="decision" type="radio">
+        <labe for="decision">Si</label>
+        <button type="button">Oke</button>
+        <select name="" id="">
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+            <option value="opcion3" selected>Opción 3</option>
+        </select>
+    </form>
+    <textarea rows="5"></textarea>
+</body>
+</html>
