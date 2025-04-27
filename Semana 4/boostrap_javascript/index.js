@@ -23,3 +23,11 @@ let alumno = {
     }
 
 }
+
+let sumar = function(a,b) {
+    let res = a+b
+    return res
+}
+
+const res = sumar(5,8)
+console.log(res)
