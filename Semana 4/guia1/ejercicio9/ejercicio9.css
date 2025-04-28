@@ -1,0 +1,8 @@
+button.cell {
+    height: 100px !important;            /* Alto fijo solicitado */
+    font-size: 2.5rem !important;        /* Tamaño de la X / O (1 rem = 16px, 0.5 rem = 8px) */
+    display: flex !important;            /* Flexbox para centrar el contenido */
+    align-items: center !important;      /* Centrado vertical */
+    justify-content: center !important;  /* Centrado horizontal */
+    user-select: none !important;        /* Evita seleccionar texto al hacer click */
+}
